@@ -8,12 +8,12 @@
   A data frame with 10 observations on the following 10 variables.
   \describe{
     \item{\code{Female}}{a numeric code to identify females.}
-    \item{\code{No_1st_Clutch}}{number of offspring sired by the second male from the first clutch.}
+    \item{\code{No_1st_Clutch}}{total offspring in the first clutch.}
     \item{\code{P2_1}}{proportional paternity of the second male for the first clutch.}
-    \item{\code{Total_1st_Clutch}}{total offspring in the first clutch.}
-    \item{\code{No_2nd_Clutch}}{number of offspring sired by the second male in the second clutch.}
+    \item{\code{No_2nd_Male_1st_Clutch}}{total offspring sired by the second male from the first clutch.}
+    \item{\code{No_2nd_Clutch}}{total offspring in the second clutch.}
     \item{\code{P2_2}}{proportional paternity of the second male for the second clutch.}
-    \item{\code{Total_2nd_Clutch}}{total offspring in the second clutch}
+    \item{\code{No_2nd_Male_2nd_Clutch}}{total offspring sired by the second male from the second clutch.}
     \item{\code{Total_2nd_Male}}{total offspring sired by the second male from both clutches.}
     \item{\code{Total_Offspring}}{total offspring for both clutches.}
     \item{\code{Total_P2}}{total overall proportional paternity of the second male for both clutches.}

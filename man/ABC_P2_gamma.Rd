@@ -30,12 +30,14 @@ ABC_P2_gamma(n, ObsMean, S_Lo, S_Hi, R_Lo, R_Hi, delta, iter)
 
 
 \examples{
-#Fit the Shape and Rate hyperpriors to a distribution of offspring using the fit_dist_gamma function. Shown below using the fungus beetle dataset.
+#Fit the Shape and Rate hyperpriors to a distribution of offspring. 
 
 data(fungus)
 fit_dist_gamma(fungus$Total_Offspring)
 
-#Use hyperiors and priors calculated from the data to estimate P2. Plot the saved distributions for the Shape and Rate parameters and adjust, if necessary.
+#Use hyperiors and priors calculated from the data to estimate P2. 
+#Plot the saved distributions for the Shape and Rate parameters.
+#Adjust, if necessary.
 
 fungus_P2<-ABC_P2_gamma(12, 9.9, 1.14, 2.52, 0.06, 0.18, 0.1, 100)
 hist(fungus_P2$posterior)

@@ -30,7 +30,8 @@ fit_dist_norm(dist)
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \examples{
-#Fit the Mean and Standard Deviation parameters to a distribution of offspring and test the goodness of fit.
+#Fit the Mean and Standard Deviation parameters to a distribution of offspring.
+#Test the goodness of fit.
 
 data(fungus)
 fungus_fit<-fit_dist_norm(fungus$Total_Offspring)
