@@ -30,7 +30,8 @@ fit_dist_gamma(dist)
 
 
 \examples{
-#Fit the Shape and Rate parameters to a distribution of offspring and test the goodness of fit.
+#Fit the Shape and Rate parameters to a distribution of offspring.
+#Test the goodness of fit.
 
 data(fungus)
 fungus_fit<-fit_dist_gamma(fungus$Total_Offspring)

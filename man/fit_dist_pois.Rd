@@ -30,7 +30,8 @@ fit_dist_pois(dist)
 
 
 \examples{
-#Fit the Lambda parameter to a distribution of offspring and test the goodness of fit.
+#Fit the Lambda parameter to a distribution of offspring.
+#Test the goodness of fit.
 
 data(fungus)
 fungus_fit<-fit_dist_pois(fungus$Total_Offspring)
